@@ -86,6 +86,7 @@ img {
 .Linea_Baja {
     background-color: orange;
     position: absolute;
+    border-radius: 1000px;
     width: 200px;
     height: 2px;
     left: 50px;
