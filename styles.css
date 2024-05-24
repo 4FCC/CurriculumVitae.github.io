@@ -1,0 +1,102 @@
+/* Estilos generales */
+body { 
+    background: #525659;
+    color: black;  
+    font-family: Platypi;
+}
+
+/* Contenedor principal */
+.CV {
+    background: white;
+    text-align: center;
+    width: 800px;
+    height: 1200px;
+    margin: auto;
+    box-shadow: 0px 0px 100px 0px black;
+}
+
+/* Encabezados */
+h1 {
+    background: #3e3e3f;
+    color: white;
+    padding: 70px 0 40px 0;
+    font-size: 60px;
+    border-width: 0 0 20px 0;
+    border-color: gray;
+    border-style: solid;
+}
+
+h2 {
+    text-align: left;
+    padding: 0 0 0 20px;
+}
+
+/* Párrafos y listas */
+p {
+    text-align: justify;
+    padding: 0 0 0 20px;
+}
+
+li {
+    text-align: left;
+}
+
+li::marker{
+    color: orange;
+    content: "» ";
+}
+
+/* Cajas laterales */
+.Box_Space {
+    position: relative;
+    text-align: center;
+}
+
+.Box_Left {
+    position: absolute;
+    width: 200px;
+    height: 800px;
+    left: 50px;
+    font-size: 10px;
+}
+
+.Box_Right {
+    position: absolute;
+    width: 450px;
+    height: 800px;
+    left: 300px;
+    font-size: 13px;
+}
+
+/* Imágenes */
+img {
+    width: 200px;
+}
+
+/* Líneas divisorias */
+.Linea_Media {
+    background-color: orange;
+    width: 2px;
+    height: 700px;
+    position: absolute;
+    border-radius: 1000px;
+    left: 285px;
+}
+
+.Linea_Baja {
+    background-color: orange;
+    position: absolute;
+    border-radius: 1000px;
+    width: 200px;
+    height: 2px;
+    left: 50px;
+    bottom: -270px;
+    font-size: 10px;
+}
+
+/* Otros estilos */
+.Nombre {
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 0 0 0;
+}
